@@ -46,17 +46,21 @@ python main.py
 Request Payload
 ```json
 {
-    "startDate": "2023-01-01",
-    "endDate": "2023-06-30",
-    "businessFacility": ["GreenEat Changi", "GreenEat Orchard"]
+    "startDate": "2020-02-08",
+    "endDate": "2023-08-23",
+    "businessFacility": ["GreenEat Changi","Fresh Kitchen Fusionopolis"]
 }
 ```
 Response
 ```json
 [
     {
+        "businessFacility": "Fresh Kitchen Fusionopolis",
+        "totalEmissions": 22206739.302497663
+    },
+    {
         "businessFacility": "GreenEat Changi",
-        "totalEmissions": 1234.56
+        "totalEmissions": 6884092.814958848
     }
 ]
 ```
