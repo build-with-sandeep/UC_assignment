@@ -11,7 +11,7 @@ Flask
 ## Setup Instructions
 1. Clone the Repository
 ```bash
-git clone <your-repository-url>
+git clone https://github.com/build-with-sandeep/UC_assignment.git
 ```
 ## 2. Create a Virtual Environment
 ```bash
